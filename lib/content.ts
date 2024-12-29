@@ -310,32 +310,32 @@ please shut the fuck up.`
         date: "October 15, 2020",
         content: `Things rain could touch ~
 
-(i)you, on days you were happy
-(ii)you, running carelessly back and forth in playgrounds, living your best day
-(iii)kids with balloons running all around with screaming smiles
-(iv)tall sky touching buildings with boxes holding people learning to pronounce syllables of words they want their stories to be etched in
-(v)museums
+(i) you, on days you were happy
+(ii) you, running carelessly back and forth in playgrounds, living your best day
+(iii) kids with balloons running all around with screaming smiles
+(iv) tall sky touching buildings with boxes holding people learning to pronounce syllables of words they want their stories to be etched in
+(v) museums
 
-(vi)wildflowers
+(vi) wildflowers
 
-(vii)your childhood
-(viii)your face, the day your little self learnt swimming
-(ix)you on all your birthdays
-(x)you, the way they know you
+(vii) your childhood
+(viii) your face, the day your little self learnt swimming
+(ix) you on all your birthdays
+(x) you, the way they know you
 
 Things rain couldn't touch ~
 
-(i)the ocean you swallow within you every night in one sip
-(ii)your parents going back and forth from work to give you the best they can
-(iii)kids who sell balloons on streets
-(iv)barren homes with chipped paint and memories hanging down ceilings
-(v)forgotten souls buried in unknown cemeteries who could not live the stories they painted for themselves
+(i) the ocean you swallow within you every night in one sip
+(ii) your parents going back and forth from work to give you the best they can
+(iii) kids who sell balloons on streets
+(iv) barren homes with chipped paint and memories hanging down ceilings
+(v) forgotten souls buried in unknown cemeteries who could not live the stories they painted for themselves
 
-(vi)wildflowers
+(vi) wildflowers
 
-(vii)the poems you write
-(viii)the seas you are drowning in
-(ix)you on your eighteenth birthday
-(x)you, the way you know you`
+(vii) the poems you write
+(viii) the seas you are drowning in
+(ix) you on your eighteenth birthday
+(x) you, the way you know you`
     }
 ];
