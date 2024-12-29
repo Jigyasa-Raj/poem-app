@@ -18,7 +18,7 @@ here are a few things about this website:
          ii. yup, even the photos are clicked by me   
          iii. no stealing allowed, okay? all my work is copyrighted  
          iv. i coded this site with next.js, typescript & some ai magic   
-         v. the design is inspired by wordpress templates`,
+         v. the design is inspired by templates on wordpress dot com`,
     },
     {id:2,
      title:"sea seakness",
