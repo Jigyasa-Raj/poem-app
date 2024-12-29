@@ -17,7 +17,7 @@ here are a few things about this website:
          i. all the poems here (whether text or image) are totally mine   
          ii. yup, even the photos are clicked by me   
          iii. no stealing allowed, okay? all my work is copyrighted  
-         iv. i coded this site with next.js, typescript & some ai magic   
+         iv. i coded this site with next.js- typescript & some ai magic   
          v. the design is inspired by templates on wordpress dot com`,
     },
     {id:2,
