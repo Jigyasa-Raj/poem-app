@@ -11,7 +11,7 @@ export default function Header() {
 
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-white">
-      <div className="container mx-auto px-4 py-6 flex justify-between items-center relative">
+      <div className="container mx-auto px-4 pr-16 py-6 flex justify-between items-center relative">
         <div className="flex items-center gap-4">
           <Link href="/" className="text-xl font-medium">
             jigyasa raj
@@ -20,8 +20,9 @@ export default function Header() {
         </div>
 
         {/* Pass the `toggleMenu` function to MenuButton */}
-        <MenuButton toggleMenu={toggleMenu} />
+        <MenuButton toggleMenu={toggleMenu} className="absolute right-4" />
       </div>
     </header>
   );
 }
+

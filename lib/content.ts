@@ -17,8 +17,8 @@ here are a few things about this website:
          i. all the poems here (whether text or image) are totally mine   
          ii. yup, even the photos are clicked by me   
          iii. no stealing allowed, okay? all my work is copyrighted  
-         iv. i coded this site with next.js, typescript & some ai magic   
-         v. the design is inspired by wordpress templates`,
+         iv. i coded this site with next.js- typescript & some ai magic   
+         v. the design is inspired by templates on wordpress dot com`,
     },
     {id:2,
      title:"sea seakness",
@@ -38,7 +38,7 @@ here are a few things about this website:
 
 I want to sing a song that sounds like my grandmother
 But my poetry doesn't speak of beauty 
-And I dare not write into something that is not beautiful 
+And I dare not write her into something that is not beautiful 
 
 (II) 
 
@@ -99,7 +99,7 @@ There's a home I'm trying to build for myself, it's a warm place as safe and str
     {
         id: 5,
         title: "are you afraid of answers too",
-        date: "April 3, 2024",
+        date: "April 3, 2021",
         content: `There are so many questions I’ve been wanting to ask you, you’ve been quiet for so long that we both can hear the echoes of your screams through the laughter of these pines. I have listed them in my mind, one by one, one cold shiver at a time.
 
 How was your morning today, did you forget to put up alarms or were your panic attacks so uncalled for that it shushed them before you could.
@@ -133,7 +133,7 @@ Do you promise yourself sunrises every time you watch a sunset.
         id: 7,
         title: "on my writer's block",
         date: "November 28, 2021",
-        content: `How loudly do you scream pain when a poem doesn't leave your womb. when instead of burning paper, it burns your insides.the newspaper headlines never had the courage to report landslides and i am stuck in a room of jammed windows with dust gathered over it's panes asking me to be a child drawing figures over it, but you see, poetry has left my veins. sometimes i see an aunty on the terrace hanging her clothes and think about how my clotheslines are empty for i have not processed my thoughts through the dishwasher and brought them to hang them under the sun for long, i have so many skies due. There's water droplets dripping down the clothes she's hanging and i don't know if mine will ever call rain. my ears can hear the dripping and my cracked lips yearn for it, but you see my senses aren't collaborating and i do not know how to end this paralysis. i have swallowed an entire burning city and my eyes like to mistake fuel for extinguishers every time i order a cyclone. i'm standing barefoot on the ground in the`
+        content: `How loudly do you scream pain when a poem doesn't leave your womb. when instead of burning paper, it burns your insides.the newspaper headlines never had the courage to report landslides and i am stuck in a room of jammed windows with dust gathered over it's panes asking me to be a child drawing figures over it, but you see, poetry has left my veins. sometimes i see an aunty on the terrace hanging her clothes and think about how my clotheslines are empty for i have not processed my thoughts through the dishwasher and brought them to hang them under the sun for long, i have so many skies due. There's water droplets dripping down the clothes she's hanging and i don't know if mine will ever call rain. my ears can hear the dripping and my cracked lips yearn for it, but you see my senses aren't collaborating and i do not know how to end this paralysis. i have swallowed an entire burning city and my eyes like to mistake fuel for extinguishers every time i order a cyclone. . i'm standing barefoot on the ground in the middle of that city, with my tongue wrapped around my neck, will you still hear me if i keep screaming and none of it comes out to be poetry?`
     },
     {
         id: 8,
@@ -310,32 +310,32 @@ please shut the fuck up.`
         date: "October 15, 2020",
         content: `Things rain could touch ~
 
-(i)you, on days you were happy
-(ii)you, running carelessly back and forth in playgrounds, living your best day
-(iii)kids with balloons running all around with screaming smiles
-(iv)tall sky touching buildings with boxes holding people learning to pronounce syllables of words they want their stories to be etched in
-(v)museums
+(i) you, on days you were happy
+(ii) you, running carelessly back and forth in playgrounds, living your best day
+(iii) kids with balloons running all around with screaming smiles
+(iv) tall sky touching buildings with boxes holding people learning to pronounce syllables of words they want their stories to be etched in
+(v) museums
 
-(vi)wildflowers
+(vi) wildflowers
 
-(vii)your childhood
-(viii)your face, the day your little self learnt swimming
-(ix)you on all your birthdays
-(x)you, the way they know you
+(vii) your childhood
+(viii) your face, the day your little self learnt swimming
+(ix) you on all your birthdays
+(x) you, the way they know you
 
 Things rain couldn't touch ~
 
-(i)the ocean you swallow within you every night in one sip
-(ii)your parents going back and forth from work to give you the best they can
-(iii)kids who sell balloons on streets
-(iv)barren homes with chipped paint and memories hanging down ceilings
-(v)forgotten souls buried in unknown cemeteries who could not live the stories they painted for themselves
+(i) the ocean you swallow within you every night in one sip
+(ii) your parents going back and forth from work to give you the best they can
+(iii) kids who sell balloons on streets
+(iv) barren homes with chipped paint and memories hanging down ceilings
+(v) forgotten souls buried in unknown cemeteries who could not live the stories they painted for themselves
 
-(vi)wildflowers
+(vi) wildflowers
 
-(vii)the poems you write
-(viii)the seas you are drowning in
-(ix)you on your eighteenth birthday
-(x)you, the way you know you`
+(vii) the poems you write
+(viii) the seas you are drowning in
+(ix) you on your eighteenth birthday
+(x) you, the way you know you`
     }
 ];

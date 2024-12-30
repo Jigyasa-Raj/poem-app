@@ -1,7 +1,7 @@
 "use client"; // Ensure this is a client-side component
 
 import { useState } from "react";
-import { Menu } from "lucide-react"; // Import menu icon from lucide-react
+import { Menu } from 'lucide-react'; // Import menu icon from lucide-react
 import Image from "next/image";
 import Link from "next/link";
 import { photos } from "@/lib/types"; // Import photos from types.ts
@@ -10,9 +10,10 @@ import { photoContentss } from "@/lib/content"; // Import titles from content.ts
 // Define the type for the MenuButton props
 interface MenuButtonProps {
   toggleMenu: () => void; // This is the function prop that will be passed from parent
+  className?: string; // Allow className as an optional prop
 }
 
-const MenuButton = ({ toggleMenu }: MenuButtonProps) => {
+const MenuButton = ({ toggleMenu, className }: MenuButtonProps) => {
   const [isMenuOpen, setIsMenuOpen] = useState(false); // State to track the menu's open/close state
 
   // Function to toggle the menu visibility
@@ -26,7 +27,7 @@ const MenuButton = ({ toggleMenu }: MenuButtonProps) => {
       {/* Menu Button - Toggle the menu when clicked */}
       <button
         onClick={toggleMenuState} // Calls the function to toggle the menu
-        className="p-2 hover:bg-gray-100 rounded-md text-black z-50 absolute top-4 right-4"
+        className={`p-2 hover:bg-gray-100 rounded-md text-black z-50 ${className}`}
       >
         <Menu className="w-6 h-6" /> {/* Render the menu icon */}
       </button>
@@ -42,7 +43,7 @@ const MenuButton = ({ toggleMenu }: MenuButtonProps) => {
 
           {/* Sliding Menu */}
           <div
-            className="fixed top-0 right-0 w-3/4 sm:w-1/2 h-full bg-white shadow-lg z-40 overflow-y-auto transform transition-transform duration-300 ease-in-out"
+            className="fixed top-0 right-0 w-full sm:w-1/2 h-full bg-white shadow-lg z-40 overflow-y-auto transform transition-transform duration-300 ease-in-out"
             style={{
               transform: isMenuOpen ? "translateX(0)" : "translateX(100%)", // Slide the menu in/out
             }}

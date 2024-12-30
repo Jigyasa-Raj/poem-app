@@ -1,56 +1,51 @@
 "use client";
 import Image from "next/image";
 import MenuButton from "@/components/MenuButton";
-import HomeIcon from "@/components/home";
+import Home from "@/components/home";
 import Link from "next/link";
 import { ArrowRight, Github, Instagram, Linkedin } from 'lucide-react';
 import { photos } from "@/lib/types";
 import { notFound } from "next/navigation";
 import { use } from "react";
 
-// Function to render content by splitting paragraphs
 const renderContent = (content: string) => {
   return content.split('\n\n').map((paragraph, index) => (
     <p key={index} className="mb-4 whitespace-pre-wrap">{paragraph}</p>
   ));
 };
 
-// Define the type for params
 type Params = {
   slug: string;
 };
 
-// This is a server-side Next.js function to handle params (assuming it's async)
 export default function PhotoPage({ params }: { params: Promise<Params> }) {
-  const unwrappedParams = use(params); // Unwrap the params Promise
+  const unwrappedParams = use(params);
 
   const photo = photos.find((p) => p.slug === unwrappedParams.slug);
   if (!photo) {
     notFound();
   }
 
-  // Find the next photo
   const currentIndex = photos.findIndex(p => p.slug === unwrappedParams.slug);
   const nextPhoto = photos[currentIndex + 1];
 
   const isEvenId = photo.id % 2 === 0;
   const isFirstPhoto = photo.id === 1;
 
-  // Toggle menu state function
   const toggleMenu = () => {
-    // Add your toggle menu logic here, e.g., setting some state to show/hide the menu
     console.log("Menu toggled");
   };
 
   return (
-    <div className="flex min-h-screen flex-col">
-      {/* Pass toggleMenu to MenuButton */}
-      <MenuButton toggleMenu={toggleMenu} />
-      <HomeIcon />
-
-      {/* Even ID: Centered Image */}
+    <div className="flex min-h-screen flex-col relative">
       {isEvenId ? (
-        <div className="flex items-center justify-center w-full min-h-screen bg-[#FAF9F7]">
+        <div className="flex items-center justify-center w-full min-h-screen bg-[#FAF9F7] relative">
+          {/* Container for both Home and MenuButton */}
+          <div className="absolute top-4 right-4 md:top-6 md:right-6 flex items-center gap-4 z-50">
+            <Home />
+            <MenuButton toggleMenu={toggleMenu} />
+          </div>
+
           <Image
             src={photo.src}
             alt={photo.alt}
@@ -62,7 +57,6 @@ export default function PhotoPage({ params }: { params: Promise<Params> }) {
         </div>
       ) : (
         <>
-          {/* Odd ID: Left Fixed Image */}
           <div className="hidden md:block md:w-1/2 fixed top-0 left-0 h-screen">
             <Image
               src={photo.src}
@@ -83,8 +77,13 @@ export default function PhotoPage({ params }: { params: Promise<Params> }) {
             </div>
           </div>
 
-          {/* Content for Odd ID */}
           <div className="w-full md:w-1/2 min-h-screen md:ml-[50%] bg-[#FAF9F7] px-6 md:px-12 py-8">
+            {/* Ensure Home and MenuButton are aligned properly */}
+            <div className="flex justify-end items-center gap-4 mb-4">
+              <Home />
+              <MenuButton toggleMenu={toggleMenu} />
+            </div>
+
             <div className="md:hidden mb-8">
               <Image
                 src={photo.src}
@@ -109,7 +108,6 @@ export default function PhotoPage({ params }: { params: Promise<Params> }) {
         </>
       )}
 
-      {/* "Next" Button - For Odd ID after Content with a larger gap from the bottom */}
       {!isEvenId && nextPhoto && (
         <div className="w-full flex justify-end mt-8 pb-16 px-6 md:px-12">
           <Link 
@@ -122,9 +120,8 @@ export default function PhotoPage({ params }: { params: Promise<Params> }) {
         </div>
       )}
 
-      {/* Social Links for the first photo - Fixed at the bottom-right */}
-      <div className="fixed bottom-6 right-6 flex flex-col items-center gap-4">
-        {isFirstPhoto && (
+      {isFirstPhoto && (
+        <div className="md:fixed md:bottom-6 md:right-6 flex flex-col items-center gap-4 mt-8 mb-16 md:mb-0">
           <div className="flex gap-4">
             <a href="https://instagram.com/j1gyasa/" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-gray-900">
               <Instagram className="w-6 h-6" />
@@ -139,10 +136,9 @@ export default function PhotoPage({ params }: { params: Promise<Params> }) {
               Contact
             </Link>
           </div>
-        )}
-      </div>
+        </div>
+      )}
 
-      {/* "Next" Button for Even IDs - Fixed Bottom Right */}
       {isEvenId && nextPhoto && (
         <div className="fixed bottom-6 right-6">
           <Link 
