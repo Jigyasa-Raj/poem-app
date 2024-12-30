@@ -13,135 +13,135 @@ export interface Photo {
 const staticPhotos: Photo[] = [
     {
         id: 1,
-        slug: "bicycle-silhouette",
+        slug: "hi-i-am-jigyasa",  // Changed slug to title
         src: "/images/1.png",
-        alt: "Bicycle silhouette",
+        alt: "hi, i am jigyasa :)",  // Changed alt to title
         className: "lg:col-span-1 lg:row-span-1",
         width: 400,
         height: 300,
     },
     {
         id: 2,
-        slug: "geometric-patterns",
+        slug: "sea-seakness",  // Changed slug to title
         src: "/images/2.png",
-        alt: "Geometric patterns with yellow line",
+        alt: "sea seakness",  // Changed alt to title
         className: "lg:col-span-1 lg:row-span-2 lg:mt-16",
         width: 400,
         height: 600,
     },
     {
         id: 3,
-        slug: "shadow-hand-yellow-leaf",
+        slug: "postal-addresses",  // Changed slug to title
         src: "/images/3.png",
-        alt: "Shadow hand with yellow leaf",
+        alt: "Postal Addresses",  // Changed alt to title
         className: "lg:col-span-1 lg:row-span-1 lg:mt-8",
         width: 400,
         height: 400,
     },
     {
         id: 4,
-        slug: "minimal-scene-blue-car",
+        slug: "of-all-thats-gone",  // Changed slug to title
         src: "/images/4.png",
-        alt: "Minimal scene with blue car",
+        alt: "of all that's gone",  // Changed alt to title
         className: "lg:col-span-1 lg:row-span-1 lg:mt-24",
         width: 300,
         height: 300,
     },
     {
         id: 5,
-        slug: "architecture-detail",
+        slug: "are-you-afraid-of-answers-too",  // Changed slug to title
         src: "/images/5.png",
-        alt: "Architecture detail",
+        alt: "are you afraid of answers too",  // Changed alt to title
         className: "lg:col-span-1 lg:row-span-1 lg:mt-12",
         width: 400,
         height: 500,
     },
     {
         id: 6,
-        slug: "ocean-waves",
+        slug: "conjunctions",  // Changed slug to title
         src: "/images/6.png",
-        alt: "Ocean waves",
+        alt: "conjunctions",  // Changed alt to title
         className: "lg:col-span-1 lg:row-span-1",
         width: 400,
         height: 300,
     },
     {
         id: 7,
-        slug: "green-staircase",
+        slug: "on-my-writers-block",  // Changed slug to title
         src: "/images/7.png",
-        alt: "Green staircase",
+        alt: "on my writer's block",  // Changed alt to title
         className: "lg:col-span-2 lg:row-span-2 lg:mt-12",
         width: 800,
         height: 600,
     },
     {
         id: 8,
-        slug: "geometric-pattern",
+        slug: "flowers",  // Changed slug to title
         src: "/images/8.png",
-        alt: "Geometric pattern",
+        alt: "flowers",  // Changed alt to title
         className: "lg:col-span-1 lg:row-span-1 lg:mt-24",
         width: 400,
         height: 300,
     },
     {
         id: 9,
-        slug: "shadow-patterns",
+        slug: "an-art-was-left-behind",  // Changed slug to title
         src: "/images/9.png",
-        alt: "Shadow patterns",
+        alt: "an art was left behind",  // Changed alt to title
         className: "lg:col-span-2 lg:row-span-1 lg:mt-12",
         width: 800,
         height: 400,
     },
     {
         id: 10,
-        slug: "white-architecture",
+        slug: "bheed",  // Changed slug to title
         src: "/images/10.png",
-        alt: "White architecture",
+        alt: "bheed",  // Changed alt to title
         className: "lg:col-span-1 lg:row-span-2",
         width: 400,
         height: 600,
     },
     {
         id: 11,
-        slug: "geometric-pattern-2",
+        slug: "my-mother-hates-my-poetry",  // Changed slug to title
         src: "/images/11.png",
-        alt: "Geometric pattern",
+        alt: "My mother hates my poetry",  // Changed alt to title
         className: "lg:col-span-1 lg:row-span-1 lg:mt-24",
         width: 400,
         height: 300,
     },
     {
         id: 12,
-        slug: "shadow-patterns-2",
+        slug: "letters",  // Changed slug to title
         src: "/images/12.png",
-        alt: "Shadow patterns",
+        alt: "letters",  // Changed alt to title
         className: "lg:col-span-2 lg:row-span-1",
         width: 800,
         height: 400,
     },
     {
         id: 13,
-        slug: "white-architecture-2",
+        slug: "before-you-judge-my-poems",  // Changed slug to title
         src: "/images/13.png",
-        alt: "White architecture",
+        alt: "Before you judge my poems",  // Changed alt to title
         className: "lg:col-span-1 lg:row-span-2 lg:mt-12",
         width: 400,
         height: 600,
     },
     {
         id: 14,
-        slug: "minimal-architecture",
+        slug: "text",  // Changed slug to title
         src: "/images/14.png",
-        alt: "Minimal architecture",
+        alt: "text",  // Changed alt to title
         className: "lg:col-span-2 lg:row-span-1 lg:mt-24",
         width: 800,
         height: 400,
     },
     {
         id: 15,
-        slug: "abstract-shadow",
+        slug: "things-rain-could-touch-and-couldnt",  // Changed slug to title
         src: "/images/15.png",
-        alt: "Abstract shadow",
+        alt: "things rain could touch and couldn't",  // Changed alt to title
         className: "lg:col-span-1 lg:row-span-1 lg:mt-12",
         width: 400,
         height: 300,
@@ -155,4 +155,3 @@ export const photos: (Photo & Partial<PhotoContent>)[] = staticPhotos.map((photo
         ...(content || {}),
     };
 });
-
