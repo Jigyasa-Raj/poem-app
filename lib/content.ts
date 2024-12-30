@@ -38,7 +38,7 @@ here are a few things about this website:
 
 I want to sing a song that sounds like my grandmother
 But my poetry doesn't speak of beauty 
-And I dare not write into something that is not beautiful 
+And I dare not write her into something that is not beautiful 
 
 (II) 
 
@@ -133,7 +133,7 @@ Do you promise yourself sunrises every time you watch a sunset.
         id: 7,
         title: "on my writer's block",
         date: "November 28, 2021",
-        content: `How loudly do you scream pain when a poem doesn't leave your womb. when instead of burning paper, it burns your insides.the newspaper headlines never had the courage to report landslides and i am stuck in a room of jammed windows with dust gathered over it's panes asking me to be a child drawing figures over it, but you see, poetry has left my veins. sometimes i see an aunty on the terrace hanging her clothes and think about how my clotheslines are empty for i have not processed my thoughts through the dishwasher and brought them to hang them under the sun for long, i have so many skies due. There's water droplets dripping down the clothes she's hanging and i don't know if mine will ever call rain. my ears can hear the dripping and my cracked lips yearn for it, but you see my senses aren't collaborating and i do not know how to end this paralysis. i have swallowed an entire burning city and my eyes like to mistake fuel for extinguishers every time i order a cyclone. i'm standing barefoot on the ground in the`
+        content: `How loudly do you scream pain when a poem doesn't leave your womb. when instead of burning paper, it burns your insides.the newspaper headlines never had the courage to report landslides and i am stuck in a room of jammed windows with dust gathered over it's panes asking me to be a child drawing figures over it, but you see, poetry has left my veins. sometimes i see an aunty on the terrace hanging her clothes and think about how my clotheslines are empty for i have not processed my thoughts through the dishwasher and brought them to hang them under the sun for long, i have so many skies due. There's water droplets dripping down the clothes she's hanging and i don't know if mine will ever call rain. my ears can hear the dripping and my cracked lips yearn for it, but you see my senses aren't collaborating and i do not know how to end this paralysis. i have swallowed an entire burning city and my eyes like to mistake fuel for extinguishers every time i order a cyclone. . i'm standing barefoot on the ground in the middle of that city, with my tongue wrapped around my neck, will you still hear me if i keep screaming and none of it comes out to be poetry?`
     },
     {
         id: 8,
