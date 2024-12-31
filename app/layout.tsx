@@ -1,5 +1,5 @@
 import "../styles/global.css";
-import { SpeedInsights } from "@vercel/speed-insights/next"
+//import { SpeedInsights } from "@vercel/speed-insights"
 
 export default function RootLayout({
   children,
